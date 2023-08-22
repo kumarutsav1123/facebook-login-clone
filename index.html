@@ -12,6 +12,13 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+
     <!-- CSS  -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,31 +29,36 @@
     <section id="body-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 logo-div">
                     <h2 class="logo-text">facebook</h2>
                     <p class="logo-description">Facebook helps you connect and share with the people in your life.</p>
                 </div>
-                <div class="col-12 col-sm-6">
-                    <div class="card-body card-form">
-                        <input type="text" class="form-control" id="formEmailPhone"
+                <div class="col-12 col-sm-6 form-div">
+                    <div class="card card-body shadow">
+                        <input type="text" class="form-control form-control-lg formElement" id="formEmailPhone"
                             placeholder="Email address or phone number">
-                        <input type="password" class="form-control" id="formPassword" placeholder="Password">
+                        <input type="password" class="form-control form-control-lg formElement" id="formPassword" placeholder="Password">
                         <div class="d-grid">
-                            <a href="" class="btn btn-primary btn-login" type="button">Log in</a>
+                            <a href="" class="btn btn-primary btn-login formElement" type="button">Log in</a>
                         </div>
-                        <a href="" class="forgetPassword-text">Forgotten password?</a>
+                        <a href="" class="forgetPassword-text formElement">Forgotten password?</a>
                         <hr>
-                        <a href="" class="btn btn-success btn-create-acc" type="button">Create new account</a>
+                        <a href="" class="btn btn-create-acc" type="button">Create new account</a>
                     </div>
-                    <p class="create-page-text"><a href="" class="create-page-link"> Create a Page</a> for a celebrity,
-                        brand or business</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-0 col-md-6"></div>
+                <div class="col-12 col-md-6">
+                    <p class="create-page-text"><a href=""> Create a Page</a> for a celebrity brand or business</p>
+                    
                 </div>
             </div>
         </div>
 
     </section>
 
-    <section id="footer">
+    <section id="footer-section">
         <div class="footer-lang">
             <a href="">English (UK) </a>
             <a href="">ଓଡ଼ିଆ </a>
@@ -59,17 +71,30 @@
             <a href="">മലയാളം </a>
             <a href="">ಕನ್ನಡ </a>
         </div>
+        <hr>
         <div class="footer-links">
-        
-                <!-- Links -->
-                Sign Up&emsp;Log in&emsp;Messenger&emsp;Facebook Lite&emsp;Video&emsp;Places&emsp;Games&emsp;Marketplace&emsp;Meta Pay&emsp;Meta Store&emsp;Meta Quest&emsp;Instagram&emsp;Threads&emsp;Fundraisers&emsp;Services&emsp;Voting Information Centre&emsp;Privacy Policy&emsp;Privacy Centre&emsp;Groups&emsp;About&emsp;Create ad&emsp;Create Page&emsp;Developers&emsp;Careers&emsp;Cookies&emsp;Ad&emsp;Choices&emsp;Terms&emsp;Help&emsp;Contact uploading and non-users
-                <br><br>
-                Not Meta @ 2023 
-                <br><br>
-                This is a clone<br>Made by
-                <a href="https://www.github.com/kumarutsav1123">Kumar Utsav</a>            
+
+            <!-- Links -->
+            Sign Up&emsp;Log in&emsp;Messenger&emsp;Facebook
+            Lite&emsp;Video&emsp;Places&emsp;Games&emsp;Marketplace&emsp;Meta Pay&emsp;Meta Store&emsp;Meta
+            Quest&emsp;Instagram&emsp;Threads&emsp;Fundraisers&emsp;Services&emsp;Voting Information Centre&emsp;Privacy
+            Policy&emsp;Privacy Centre&emsp;Groups&emsp;About&emsp;Create ad&emsp;Create
+            Page&emsp;Developers&emsp;Careers&emsp;Cookies&emsp;Ad&emsp;Choices&emsp;Terms&emsp;Help&emsp;Contact
+            uploading and non-users
+            <br><br>
+            Not Meta @ 2023f
+        </div>
+        <div class="note">
+            <br><br>
+            This is a clone<br>Made by
+            <a href="https://www.github.com/kumarutsav1123">Kumar Utsav</a>
         </div>
     </section>
 </body>
+
+
+// TODO: Align the logo-div side by side with login button
+// TODO: Add favicon
+// TODO: Add href to all links - dummy link redirecting to your cv/github
 
 </html>

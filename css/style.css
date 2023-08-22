@@ -1,7 +1,91 @@
-/* BODY  */
+body {
+    font-family: "Hind";
+}
+
+/* BODY SECTION */
 
 #body-section {
     background-color: #f0f2f5;
     text-align: center;
     height: 92vh;
+    padding: 10% 5% 15%;
+}
+
+.logo-div {
+    text-align: left;
+    margin: auto 0px;
+}
+
+.logo-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    color: #1877f2;
+}
+
+.logo-description {
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.form-div {
+    margin: 23px 0 0 0;
+}
+
+.formElement {
+    margin: 5.8px 0px;
+    font-size: 19px;
+    padding: 8px;
+}
+
+.btn {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.forgetPassword-text {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-create-acc {
+    margin: 8px auto;
+    font-size: 19px;
+    padding: 15px;
+    background-color: #42b72a;
+    color: white;
+}
+
+.create-page-text {
+    margin: 23px auto;
+}
+.create-page-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* Footer Section  */
+
+#footer-section {
+    padding: 23px;
+    font-size: 15px;
+    color: #a0a4b8;
+}
+
+.footer-links, .footer-lang a{
+    color: #a0a4b8;
+    margin: 0px 3px;
+}
+
+.utsav {
+    color: blue;
+    font-size: 100px;
+}
+
+
+.note {
+    text-align: center;
 }
