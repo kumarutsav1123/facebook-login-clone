@@ -1,0 +1,6 @@
+body background     #f0f2f5
+logo                #1877f2
+login-btn           #1877f2
+create-acc-btn      #42b72a
+lang-text           #bac0ce
+footer-text         #a0a4b8
